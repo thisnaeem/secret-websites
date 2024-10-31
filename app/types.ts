@@ -5012,5 +5012,215 @@ export const websites: Website[] = [
       "url": "https://onfido.com",
       "description": "Identity verification AI",
       "category": "Security"
+    },
+    {
+      "id": "716",
+      "title": "Intezer",
+      "url": "https://intezer.com",
+      "description": "Genetic malware analysis",
+      "category": "Security"
+    },
+    {
+      "id": "717",
+      "title": "Salt Security",
+      "url": "https://salt.security",
+      "description": "API protection platform",
+      "category": "Security"
+    },
+    {
+      "id": "718",
+      "title": "Noname Security",
+      "url": "https://nonamesecurity.com",
+      "description": "API security platform",
+      "category": "Security"
+    },
+    {
+      "id": "719",
+      "title": "Databricks Unity",
+      "url": "https://databricks.com/unity",
+      "description": "Data analytics catalog",
+      "category": "Analytics"
+    },
+    {
+      "id": "720",
+      "title": "Hive",
+      "url": "https://thehive.ai",
+      "description": "Content moderation API",
+      "category": "API"
+    },
+    {
+      "id": "721",
+      "title": "Eden AI",
+      "url": "https://edenai.co",
+      "description": "Unified AI API platform",
+      "category": "API"
+    },
+    {
+      "id": "722",
+      "title": "RapidAPI AI",
+      "url": "https://rapidapi.com/ai",
+      "description": "AI API marketplace",
+      "category": "API"
+    },
+    {
+      "id": "723",
+      "title": "BreezoMeter",
+      "url": "https://breezometer.com",
+      "description": "Environmental intelligence",
+      "category": "Climate"
+    },
+    {
+      "id": "724",
+      "title": "ClimateTrace",
+      "url": "https://climatetrace.org",
+      "description": "Emissions tracking platform",
+      "category": "Climate"
+    },
+    {
+      "id": "725",
+      "title": "Xsight Labs",
+      "url": "https://xsightlabs.com",
+      "description": "Data center chips",
+      "category": "Hardware"
+    },
+    {
+      "id": "726",
+      "title": "Fluent.ai",
+      "url": "https://fluent.ai",
+      "description": "Speech recognition tech",
+      "category": "Language"
+    },
+    {
+      "id": "727",
+      "title": "AgNext",
+      "url": "https://agnext.com",
+      "description": "Agricultural quality assessment",
+      "category": "Agriculture"
+    },
+    {
+      "id": "728",
+      "title": "Jane",
+      "url": "https://jane.hr",
+      "description": "HR automation platform",
+      "category": "HR"
+    },
+    {
+      "id": "729",
+      "title": "Oyster HR",
+      "url": "https://oysterhr.com",
+      "description": "Global employment platform",
+      "category": "HR"
+    },
+    {
+      "id": "730",
+      "title": "Remote",
+      "url": "https://remote.com",
+      "description": "Global HR platform",
+      "category": "HR"
+    },
+    {
+      "id": "731",
+      "title": "Deel",
+      "url": "https://deel.com",
+      "description": "Global payroll platform",
+      "category": "HR"
+    },
+    {
+      "id": "732",
+      "title": "HiredScore",
+      "url": "https://hiredscore.com",
+      "description": "Talent intelligence platform",
+      "category": "HR"
+    },
+    {
+      "id": "733",
+      "title": "Workato",
+      "url": "https://workato.com",
+      "description": "Enterprise automation",
+      "category": "Automation"
+    },
+    {
+      "id": "734",
+      "title": "UiPath",
+      "url": "https://uipath.com",
+      "description": "Automation platform",
+      "category": "Automation"
+    },
+    {
+      "id": "735",
+      "title": "Blippar",
+      "url": "https://blippar.com",
+      "description": "AR platform",
+      "category": "AR/VR"
+    },
+    {
+      "id": "736",
+      "title": "Contentstudio",
+      "url": "https://contentstudio.io",
+      "description": "Content marketing platform",
+      "category": "Content"
+    },
+    {
+      "id": "737",
+      "title": "MarketMuse",
+      "url": "https://marketmuse.com",
+      "description": "Content intelligence platform",
+      "category": "Content"
+    },
+    {
+      "id": "738",
+      "title": "Frase",
+      "url": "https://frase.io",
+      "description": "Content optimization platform",
+      "category": "Content"
+    },
+    {
+      "id": "739",
+      "title": "Surfer",
+      "url": "https://surferseo.com",
+      "description": "Content optimization tool",
+      "category": "Content"
+    },
+    {
+      "id": "740",
+      "title": "Clearscope",
+      "url": "https://clearscope.io",
+      "description": "Content optimization platform",
+      "category": "Content"
+    },
+    {
+      "id": "741",
+      "title": "DataStax",
+      "url": "https://datastax.com",
+      "description": "Real-time data platform",
+      "category": "Data"
+    },
+    {
+      "id": "742",
+      "title": "Kyndi",
+      "url": "https://kyndi.com",
+      "description": "Natural language search",
+      "category": "Search"
+    },
+    {
+      "id": "743",
+      "title": "Yext AI Search",
+      "url": "https://yext.com/ai-search",
+      "description": "Enterprise search platform",
+      "category": "Search"
+    },
+    {
+      "id": "744",
+      "title": "Coveo",
+      "url": "https://coveo.com",
+      "description": "Enterprise search AI",
+      "category": "Search"
+    },
+    {
+      "id": "745",
+      "title": "Lucidworks",
+      "url": "https://lucidworks.com",
+      "description": "Search & discovery platform",
+      "category": "Search"
     }
 ];
