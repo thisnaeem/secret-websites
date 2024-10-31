@@ -1,21 +1,33 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 17, 24, 39;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .website-card {
+    @apply bg-gray-800 rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:transform hover:scale-[1.02];
+  }
+
+  .category-button {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-300;
+  }
+
+  .category-button-active {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .category-button-inactive {
+    @apply bg-gray-800 text-gray-300 hover:bg-gray-700;
+  }
 }
