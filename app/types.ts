@@ -7112,5 +7112,215 @@ export const websites: Website[] = [
       "url": "https://rigetti.com",
       "description": "Quantum computing systems",
       "category": "Hardware"
+    },
+    {
+      "id": "1016",
+      "title": "IonQ",
+      "url": "https://ionq.com",
+      "description": "Quantum computing hardware",
+      "category": "Hardware"
+    },
+    {
+      "id": "1017",
+      "title": "PsiQuantum",
+      "url": "https://psiquantum.com",
+      "description": "Quantum computing systems",
+      "category": "Hardware"
+    },
+    {
+      "id": "1018",
+      "title": "Xanadu",
+      "url": "https://xanadu.ai",
+      "description": "Photonic quantum computing",
+      "category": "Hardware"
+    },
+    {
+      "id": "1019",
+      "title": "AgricultureAI",
+      "url": "https://agriculture.ai",
+      "description": "Crop prediction platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1020",
+      "title": "FarmAI",
+      "url": "https://farm.ai",
+      "description": "Agricultural monitoring",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1021",
+      "title": "ClimateEngine",
+      "url": "https://climateengine.com",
+      "description": "Climate data platform",
+      "category": "Climate"
+    },
+    {
+      "id": "1022",
+      "title": "ClimateScore",
+      "url": "https://climatescore.com",
+      "description": "Climate risk analytics",
+      "category": "Climate"
+    },
+    {
+      "id": "1023",
+      "title": "Kensho",
+      "url": "https://kensho.com",
+      "description": "Business analytics AI",
+      "category": "Analytics"
+    },
+    {
+      "id": "1024",
+      "title": "H2O.ai",
+      "url": "https://h2o.ai",
+      "description": "AI cloud platform",
+      "category": "Enterprise"
+    },
+    {
+      "id": "1025",
+      "title": "LightTag",
+      "url": "https://lighttag.io",
+      "description": "Data annotation platform",
+      "category": "Data"
+    },
+    {
+      "id": "1026",
+      "title": "Labellerr",
+      "url": "https://labellerr.com",
+      "description": "Data labeling platform",
+      "category": "Data"
+    },
+    {
+      "id": "1027",
+      "title": "Kili Technology",
+      "url": "https://kili-technology.com",
+      "description": "Training data platform",
+      "category": "Data"
+    },
+    {
+      "id": "1028",
+      "title": "HyperAnna",
+      "url": "https://hyperanna.com",
+      "description": "Data analytics AI",
+      "category": "Analytics"
+    },
+    {
+      "id": "1029",
+      "title": "DeepSphere",
+      "url": "https://deepsphere.ai",
+      "description": "Enterprise AI solutions",
+      "category": "Enterprise"
+    },
+    {
+      "id": "1030",
+      "title": "Lexion",
+      "url": "https://lexion.ai",
+      "description": "Legal contract AI",
+      "category": "Legal"
+    },
+    {
+      "id": "1031",
+      "title": "ContractPodAi",
+      "url": "https://contractpod.com",
+      "description": "Contract management AI",
+      "category": "Legal"
+    },
+    {
+      "id": "1032",
+      "title": "AgEagle",
+      "url": "https://ageagle.com",
+      "description": "Drone imaging platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1033",
+      "title": "AgroSmart",
+      "url": "https://agrosmart.com.br",
+      "description": "Agricultural monitoring",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1034",
+      "title": "SecurityScorecard",
+      "url": "https://securityscorecard.com",
+      "description": "Security rating platform",
+      "category": "Security"
+    },
+    {
+      "id": "1035",
+      "title": "BitSight",
+      "url": "https://bitsight.com",
+      "description": "Security ratings platform",
+      "category": "Security"
+    },
+    {
+      "id": "1036",
+      "title": "Ople.AI",
+      "url": "https://ople.ai",
+      "description": "AutoML platform",
+      "category": "Data"
+    },
+    {
+      "id": "1037",
+      "title": "Neural Magic",
+      "url": "https://neuralmagic.com",
+      "description": "Deep learning optimization",
+      "category": "Data"
+    },
+    {
+      "id": "1038",
+      "title": "Mobius Labs",
+      "url": "https://mobiuslabs.com",
+      "description": "Computer vision API",
+      "category": "API"
+    },
+    {
+      "id": "1039",
+      "title": "Rossum",
+      "url": "https://rossum.ai",
+      "description": "Document processing AI",
+      "category": "Documents"
+    },
+    {
+      "id": "1040",
+      "title": "Klue",
+      "url": "https://klue.com",
+      "description": "Competitive intelligence",
+      "category": "Intelligence"
+    },
+    {
+      "id": "1041",
+      "title": "Crayon",
+      "url": "https://crayon.co",
+      "description": "Market intelligence",
+      "category": "Intelligence"
+    },
+    {
+      "id": "1042",
+      "title": "Chorus.ai",
+      "url": "https://chorus.ai",
+      "description": "Conversation intelligence",
+      "category": "Communication"
+    },
+    {
+      "id": "1043",
+      "title": "Gong.io",
+      "url": "https://gong.io",
+      "description": "Revenue intelligence",
+      "category": "Sales"
+    },
+    {
+      "id": "1044",
+      "title": "People.ai",
+      "url": "https://people.ai",
+      "description": "Revenue operations AI",
+      "category": "Sales"
+    },
+    {
+      "id": "1045",
+      "title": "Drift",
+      "url": "https://drift.com",
+      "description": "Conversational marketing",
+      "category": "Marketing"
     }
 ];

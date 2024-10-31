@@ -18,7 +18,7 @@ const Header = ({ totalWebsites }: HeaderProps) => (
   <div className="bg-gray-900 border-b border-gray-800 py-6 mb-8 w-full">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-3xl font-bold text-white">Website Directory</h1>
+        <h1 className="text-3xl font-bold text-white">AI Website Directory</h1>
         <a
           href="https://www.patreon.com/c/thisnaeem"
           target="_blank"
