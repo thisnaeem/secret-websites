@@ -1,8 +1,10 @@
 // app/page.tsx
 "use client";
 import { Plus_Jakarta_Sans } from 'next/font/google';
-import { useState } from "react";
-import { Website, websites, isUrlExists, generateId } from "./types";
+import { useState, useEffect } from "react";
+import { Website } from "@prisma/client";
+import { addWebsite, fetchWebsites } from "@/lib/api";
+import { defaultWebsites } from '@/data/sites';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -22,7 +24,7 @@ interface HeaderProps {
 }
 
 interface AddWebsiteFormProps {
-  onAdd: (website: Website) => void;
+  onAdd: (website: Omit<Website, "id" | "createdAt" | "updatedAt">) => Promise<void>;
   onClose: () => void;
   existingCategories: string[];
 }
@@ -76,7 +78,7 @@ const CategoryFilter = ({
               : "category-button-inactive"
           }`}
         >
-          All ({websites.length})
+          All ({Object.values(categoryCounts).reduce((a, b) => a + b, 0)})
         </button>
         {visibleCategories.map((category) => (
           <button
@@ -149,6 +151,7 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isNewCategory, setIsNewCategory] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const validateForm = () => {
     const newErrors: Record<string, string> = {};
@@ -162,9 +165,6 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
     } else {
       try {
         new URL(formData.url);
-        if (isUrlExists(formData.url)) {
-          newErrors.url = 'This URL already exists in the directory';
-        }
       } catch {
         newErrors.url = 'Please enter a valid URL';
       }
@@ -186,20 +186,28 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (validateForm()) {
-      const newWebsite: Website = {
-        id: generateId(),
-        title: formData.title.trim(),
-        url: formData.url.trim(),
-        description: formData.description.trim(),
-        category: isNewCategory ? formData.newCategory.trim() : formData.category
-      };
-
-      onAdd(newWebsite);
-      onClose();
+      setIsSubmitting(true);
+      try {
+        await onAdd({
+          title: formData.title.trim(),
+          url: formData.url.trim(),
+          description: formData.description.trim(),
+          category: isNewCategory ? formData.newCategory.trim() : formData.category
+        });
+        onClose();
+      } catch (error) {
+        if (error instanceof Error) {
+          setErrors({ submit: error.message });
+        } else {
+          setErrors({ submit: 'Failed to add website' });
+        }
+      } finally {
+        setIsSubmitting(false);
+      }
     }
   };
 
@@ -211,10 +219,17 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
           <button
             onClick={onClose}
             className="text-gray-400 hover:text-white transition-colors"
+            disabled={isSubmitting}
           >
             ✕
           </button>
         </div>
+
+        {errors.submit && (
+          <div className="bg-red-500 bg-opacity-10 border border-red-500 text-red-500 px-4 py-2 rounded-lg mb-4">
+            {errors.submit}
+          </div>
+        )}
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -227,6 +242,7 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
               onChange={(e) => setFormData({ ...formData, title: e.target.value })}
               className="w-full px-3 py-2 bg-gray-700 rounded-lg text-white focus:ring-2 focus:ring-blue-500 outline-none"
               placeholder="Website Title"
+              disabled={isSubmitting}
             />
             {errors.title && (
               <p className="text-red-400 text-sm mt-1">{errors.title}</p>
@@ -243,6 +259,7 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
               onChange={(e) => setFormData({ ...formData, url: e.target.value })}
               className="w-full px-3 py-2 bg-gray-700 rounded-lg text-white focus:ring-2 focus:ring-blue-500 outline-none"
               placeholder="https://example.com"
+              disabled={isSubmitting}
             />
             {errors.url && (
               <p className="text-red-400 text-sm mt-1">{errors.url}</p>
@@ -259,6 +276,7 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
               className="w-full px-3 py-2 bg-gray-700 rounded-lg text-white focus:ring-2 focus:ring-blue-500 outline-none"
               rows={3}
               placeholder="Brief description of the website"
+              disabled={isSubmitting}
             />
             {errors.description && (
               <p className="text-red-400 text-sm mt-1">{errors.description}</p>
@@ -274,6 +292,7 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
                 type="button"
                 onClick={() => setIsNewCategory(!isNewCategory)}
                 className="text-blue-400 text-sm hover:text-blue-300 transition-colors"
+                disabled={isSubmitting}
               >
                 {isNewCategory ? 'Select Existing' : 'Add New'}
               </button>
@@ -286,12 +305,14 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
                 onChange={(e) => setFormData({ ...formData, newCategory: e.target.value })}
                 className="w-full px-3 py-2 bg-gray-700 rounded-lg text-white focus:ring-2 focus:ring-blue-500 outline-none"
                 placeholder="New Category Name"
+                disabled={isSubmitting}
               />
             ) : (
               <select
                 value={formData.category}
                 onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                 className="w-full px-3 py-2 bg-gray-700 rounded-lg text-white focus:ring-2 focus:ring-blue-500 outline-none"
+                disabled={isSubmitting}
               >
                 <option value="">Select a category</option>
                 {existingCategories.map((category) => (
@@ -311,14 +332,38 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
           <div className="flex gap-3 mt-6">
             <button
               type="submit"
-              className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"
+              className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              disabled={isSubmitting}
             >
-              Add Website
+              {isSubmitting ? (
+                <>
+                  <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                    <circle 
+                      className="opacity-25" 
+                      cx="12" 
+                      cy="12" 
+                      r="10" 
+                      stroke="currentColor" 
+                      strokeWidth="4"
+                      fill="none"
+                    />
+                    <path 
+                      className="opacity-75" 
+                      fill="currentColor" 
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                    />
+                  </svg>
+                  Adding...
+                </>
+              ) : (
+                'Add Website'
+              )}
             </button>
             <button
               type="button"
               onClick={onClose}
-              className="flex-1 bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-lg transition-colors"
+              className="flex-1 bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={isSubmitting}
             >
               Cancel
             </button>
@@ -327,7 +372,7 @@ const AddWebsiteForm = ({ onAdd, onClose, existingCategories }: AddWebsiteFormPr
       </div>
     </div>
   );
-};
+}
 
 const WebsiteCard = ({ website }: { website: Website }) => (
   <div className="website-card">
@@ -350,10 +395,100 @@ const WebsiteCard = ({ website }: { website: Website }) => (
   </div>
 );
 
+const LoadingSpinner = () => (
+  <div className="flex items-center justify-center min-h-screen bg-gray-900">
+    <div className="flex flex-col items-center gap-4">
+      <svg className="animate-spin h-10 w-10 text-blue-500" viewBox="0 0 24 24">
+        <circle
+          className="opacity-25"
+          cx="12"
+          cy="12"
+          r="10"
+          stroke="currentColor"
+          strokeWidth="4"
+          fill="none"
+        />
+        <path
+          className="opacity-75"
+          fill="currentColor"
+          d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+        />
+      </svg>
+      <p className="text-gray-400">Loading websites...</p>
+    </div>
+  </div>
+);
+
+const ErrorMessage = ({ message }: { message: string }) => (
+  <div className="flex items-center justify-center min-h-screen bg-gray-900">
+    <div className="bg-red-500/10 border border-red-500 rounded-lg p-6 max-w-md w-full mx-4">
+      <p className="text-red-500 text-center mb-4">{message}</p>
+      <button
+        onClick={() => window.location.reload()}
+        className="w-full bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-lg transition-colors duration-300"
+      >
+        Try again
+      </button>
+    </div>
+  </div>
+);
+
 export default function Page() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [showAddForm, setShowAddForm] = useState(false);
-  const [localWebsites, setLocalWebsites] = useState<Website[]>(websites);
+  const [localWebsites, setLocalWebsites] = useState<Website[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    loadWebsites();
+  }, []);
+
+  async function loadWebsites() {
+    try {
+      setIsLoading(true);
+      setError(null);
+      const data = await fetchWebsites();
+      console.log(data)
+      if (Array.isArray(data)) {
+        setLocalWebsites([...data, ...defaultWebsites]);
+      } else {
+        throw new Error("Invalid response format");
+      }
+    } catch (err) {
+      console.error("Error loading websites:", err);
+      setError(
+        "Failed to load websites. Please check your connection and try again."
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
+
+  const handleAddWebsite = async (
+    newWebsite: Omit<Website, "id" | "createdAt" | "updatedAt">
+  ) => {
+    try {
+      const addedWebsite = await addWebsite(newWebsite);
+      setLocalWebsites((prev) => [addedWebsite, ...prev]);
+      setShowAddForm(false);
+    } catch (err) {
+      if (err instanceof Error) {
+        throw err;
+      } else {
+        throw new Error("Failed to add website");
+      }
+    }
+  };
+
+  if (isLoading) {
+    return <LoadingSpinner />;
+  }
+
+  if (error) {
+    return <ErrorMessage message={error} />;
+  }
 
   const categories = [...new Set(localWebsites.map((site) => site.category))];
 
@@ -366,10 +501,6 @@ export default function Page() {
     ? localWebsites.filter((site) => site.category === activeCategory)
     : localWebsites;
 
-  const handleAddWebsite = (newWebsite: Website) => {
-    setLocalWebsites([...localWebsites, newWebsite]);
-  };
-
   return (
     <div className={`min-h-screen bg-gray-900 ${plusJakartaSans.className}`}>
       <Header
@@ -378,7 +509,7 @@ export default function Page() {
       />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
           <CategoryFilter
             categories={categories}
             activeCategory={activeCategory}
@@ -387,7 +518,7 @@ export default function Page() {
           />
           <button
             onClick={() => setShowAddForm(true)}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center gap-2"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center gap-2 whitespace-nowrap"
           >
             <svg
               className="w-5 h-5"
@@ -406,11 +537,21 @@ export default function Page() {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredWebsites.map((website) => (
-            <WebsiteCard key={website.id} website={website} />
-          ))}
-        </div>
+        {filteredWebsites.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-gray-400">
+              {activeCategory
+                ? `No websites found in the "${activeCategory}" category`
+                : "No websites found"}
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredWebsites.map((website) => (
+              <WebsiteCard key={website.id} website={website} />
+            ))}
+          </div>
+        )}
 
         {showAddForm && (
           <AddWebsiteForm

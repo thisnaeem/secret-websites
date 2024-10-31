@@ -1,13 +1,6 @@
-// types.ts
-export interface Website {
-  id: string;
-  title: string;
-  url: string;
-  description: string;
-  category: string;
-}
+import { Website } from "@/types";
 
-export const websites: Website[] = [
+export const defaultWebsites: Website[] = [
   {
       "id": "1",
       "title": "ChatGPT",
@@ -7710,15 +7703,3 @@ export const websites: Website[] = [
     }
 
 ];
-
-export const isUrlExists = (url: string): boolean => {
-  const normalizedUrl = url.toLowerCase().replace(/\/+$/, '');
-  return websites.some(website => 
-    website.url.toLowerCase().replace(/\/+$/, '') === normalizedUrl
-  );
-};
-
-// Helper function to generate unique ID
-export const generateId = (): string => {
-  return Math.random().toString(36).substr(2, 9);
-};
