@@ -7322,5 +7322,403 @@ export const websites: Website[] = [
       "url": "https://drift.com",
       "description": "Conversational marketing",
       "category": "Marketing"
+    },
+    {
+      "id": "1046",
+      "title": "Klaviyo",
+      "url": "https://klaviyo.com",
+      "description": "Marketing automation platform",
+      "category": "Marketing"
+    },
+    {
+      "id": "1047",
+      "title": "Clari",
+      "url": "https://clari.com",
+      "description": "Revenue operations platform",
+      "category": "Sales"
+    },
+    {
+      "id": "1048",
+      "title": "Highspot",
+      "url": "https://highspot.com",
+      "description": "Sales enablement platform",
+      "category": "Sales"
+    },
+    {
+      "id": "1049",
+      "title": "Eigen Technologies",
+      "url": "https://eigentech.com",
+      "description": "Document intelligence",
+      "category": "Documents"
+    },
+    {
+      "id": "1050",
+      "title": "Shield",
+      "url": "https://shieldfc.com",
+      "description": "Communications compliance",
+      "category": "Communication"
+    },
+    {
+      "id": "1051",
+      "title": "Symbl.ai",
+      "url": "https://symbl.ai",
+      "description": "Conversation intelligence API",
+      "category": "API"
+    },
+    {
+      "id": "1052",
+      "title": "AssemblyAI",
+      "url": "https://assemblyai.com",
+      "description": "Speech recognition API",
+      "category": "API"
+    },
+    {
+      "id": "1053",
+      "title": "Casetext",
+      "url": "https://casetext.com",
+      "description": "Legal research AI",
+      "category": "Legal"
+    },
+    {
+      "id": "1054",
+      "title": "Relativity",
+      "url": "https://relativity.com",
+      "description": "Legal document analysis",
+      "category": "Legal"
+    },
+    {
+      "id": "1055",
+      "title": "Prospera Technologies",
+      "url": "https://prospera.ag",
+      "description": "Agricultural intelligence",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1056",
+      "title": "Klevu",
+      "url": "https://klevu.com",
+      "description": "Ecommerce search AI",
+      "category": "Ecommerce"
+    },
+    {
+      "id": "1057",
+      "title": "Constructor.io",
+      "url": "https://constructor.io",
+      "description": "Ecommerce search platform",
+      "category": "Ecommerce"
+    },
+    {
+      "id": "1058",
+      "title": "Bloomreach",
+      "url": "https://bloomreach.com",
+      "description": "Digital commerce platform",
+      "category": "Ecommerce"
+    },
+    {
+      "id": "1059",
+      "title": "Nosto",
+      "url": "https://nosto.com",
+      "description": "Commerce personalization",
+      "category": "Ecommerce"
+    },
+    {
+      "id": "1060",
+      "title": "Dynamic Yield",
+      "url": "https://dynamicyield.com",
+      "description": "Personalization platform",
+      "category": "Ecommerce"
+    },
+    {
+      "id": "1061",
+      "title": "Meta Reality Labs",
+      "url": "https://about.meta.com/realitylabs",
+      "description": "AR/VR development",
+      "category": "AR/VR"
+    },
+    {
+      "id": "1062",
+      "title": "Spatial",
+      "url": "https://spatial.io",
+      "description": "AR collaboration platform",
+      "category": "Collaboration"
+    },
+    {
+      "id": "1063",
+      "title": "CTRL-labs",
+      "url": "https://ctrl-labs.com",
+      "description": "Neural interface tech",
+      "category": "Hardware"
+    },
+    {
+      "id": "1064",
+      "title": "Kernel",
+      "url": "https://kernel.com",
+      "description": "Brain-computer interface",
+      "category": "Hardware"
+    },
+    {
+      "id": "1065",
+      "title": "Emotibot",
+      "url": "https://emotibot.com",
+      "description": "Emotional AI platform",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1066",
+      "title": "Observe.AI",
+      "url": "https://observe.ai",
+      "description": "Contact center AI",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1067",
+      "title": "Uniphore",
+      "url": "https://uniphore.com",
+      "description": "Conversational automation",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1068",
+      "title": "Cresta",
+      "url": "https://cresta.com",
+      "description": "Customer service AI",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1069",
+      "title": "SupportLogic",
+      "url": "https://supportlogic.com",
+      "description": "Customer support intelligence",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1070",
+      "title": "Aquant",
+      "url": "https://aquant.io",
+      "description": "Service intelligence platform",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1071",
+      "title": "Cognigy",
+      "url": "https://cognigy.com",
+      "description": "Customer service automation",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1072",
+      "title": "Directly",
+      "url": "https://directly.com",
+      "description": "Expert support automation",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1073",
+      "title": "Forethought",
+      "url": "https://forethought.ai",
+      "description": "Customer support AI",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1074",
+      "title": "Twilio Flex",
+      "url": "https://twilio.com/flex",
+      "description": "Programmable contact center",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1075",
+      "title": "Ada Support",
+      "url": "https://ada.cx",
+      "description": "Automated customer service",
+      "category": "Customer Service"
+    },
+    {
+      "id": "1076",
+      "title": "ControlUp",
+      "url": "https://controlup.com",
+      "description": "Digital employee experience",
+      "category": "IT"
+    },
+    {
+      "id": "1077",
+      "title": "Devo",
+      "url": "https://devo.com",
+      "description": "Security analytics platform",
+      "category": "Security"
+    },
+    {
+      "id": "1078",
+      "title": "Hunters.AI",
+      "url": "https://hunters.ai",
+      "description": "Security operations platform",
+      "category": "Security"
+    },
+    {
+      "id": "1079",
+      "title": "Morpheus Space",
+      "url": "https://morpheus-space.com",
+      "description": "Spacecraft mobility",
+      "category": "Hardware"
+    },
+    {
+      "id": "1080",
+      "title": "Analytical Flavor Systems",
+      "url": "https://gastrograph.com",
+      "description": "Food intelligence platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "1081",
+      "title": "InstaDeep",
+      "url": "https://instadeep.com",
+      "description": "Decision-making AI platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "1082",
+      "title": "Cognite",
+      "url": "https://cognite.com",
+      "description": "Industrial data platform",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "1083",
+      "title": "Arkestro",
+      "url": "https://arkestro.com",
+      "description": "Predictive procurement",
+      "category": "Business"
+    },
+    {
+      "id": "1084",
+      "title": "Everseen",
+      "url": "https://everseen.com",
+      "description": "Visual AI platform",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "1085",
+      "title": "Realm AI",
+      "url": "https://realm.ai",
+      "description": "Digital twin platform",
+      "category": "3D"
+    },
+    {
+      "id": "1086",
+      "title": "AgBrain",
+      "url": "https://agbrain.com",
+      "description": "Agricultural intelligence",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1087",
+      "title": "ClimateAI Risk",
+      "url": "https://climate.ai/risk",
+      "description": "Climate risk platform",
+      "category": "Climate"
+    },
+    {
+      "id": "1088",
+      "title": "Orbital Sidekick",
+      "url": "https://orbitalsidekick.com",
+      "description": "Satellite monitoring",
+      "category": "Data"
+    },
+    {
+      "id": "1089",
+      "title": "Privateer Space",
+      "url": "https://privateer.com",
+      "description": "Space environment data",
+      "category": "Data"
+    },
+    {
+      "id": "1090",
+      "title": "Seeflection",
+      "url": "https://seeflection.com",
+      "description": "AR development platform",
+      "category": "AR/VR"
+    },
+    {
+      "id": "1091",
+      "title": "Anduril Defense",
+      "url": "https://anduril.com",
+      "description": "Defense systems platform",
+      "category": "Defense"
+    },
+    {
+      "id": "1092",
+      "title": "Palantir Apollo",
+      "url": "https://palantir.com/apollo",
+      "description": "Defense software platform",
+      "category": "Defense"
+    },
+    {
+      "id": "1093",
+      "title": "Dedrone",
+      "url": "https://dedrone.com",
+      "description": "Airspace security",
+      "category": "Defense"
+    },
+    {
+      "id": "1094",
+      "title": "Mindbridge",
+      "url": "https://mindbridge.ai",
+      "description": "Financial analysis platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "1095",
+      "title": "Zebrium",
+      "url": "https://zebrium.com",
+      "description": "Log analysis platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "1096",
+      "title": "Aidentified",
+      "url": "https://aidentified.com",
+      "description": "Relationship intelligence",
+      "category": "Sales"
+    },
+    {
+      "id": "1097",
+      "title": "Deepgram Enterprise",
+      "url": "https://deepgram.com/enterprise",
+      "description": "Speech recognition platform",
+      "category": "Language"
+    },
+    {
+      "id": "1098",
+      "title": "Corti",
+      "url": "https://corti.ai",
+      "description": "Emergency response AI",
+      "category": "Emergency"
+    },
+    {
+      "id": "1099",
+      "title": "RapidSOS",
+      "url": "https://rapidsos.com",
+      "description": "Emergency response platform",
+      "category": "Emergency"
+    },
+    {
+      "id": "1100",
+      "title": "Reask",
+      "url": "https://reask.earth",
+      "description": "Climate risk modeling",
+      "category": "Climate"
     }
+
 ];
+
+export const isUrlExists = (url: string): boolean => {
+  const normalizedUrl = url.toLowerCase().replace(/\/+$/, '');
+  return websites.some(website => 
+    website.url.toLowerCase().replace(/\/+$/, '') === normalizedUrl
+  );
+};
+
+// Helper function to generate unique ID
+export const generateId = (): string => {
+  return Math.random().toString(36).substr(2, 9);
+};
