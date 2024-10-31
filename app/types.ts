@@ -5607,5 +5607,530 @@ export const websites: Website[] = [
       "url": "https://uptake.com",
       "description": "Industrial intelligence",
       "category": "Manufacturing"
+    },
+    {
+      "id": "801",
+      "title": "Shield Eye",
+      "url": "https://shieldeye.ai",
+      "description": "Security monitoring platform",
+      "category": "Security"
+    },
+    {
+      "id": "802",
+      "title": "Cognyte",
+      "url": "https://cognyte.com",
+      "description": "Security analytics platform",
+      "category": "Security"
+    },
+    {
+      "id": "803",
+      "title": "Armis",
+      "url": "https://armis.com",
+      "description": "Asset security platform",
+      "category": "Security"
+    },
+    {
+      "id": "804",
+      "title": "Deepnote",
+      "url": "https://deepnote.com",
+      "description": "Data science notebooks",
+      "category": "Data Analysis"
+    },
+    {
+      "id": "805",
+      "title": "Mode Analytics",
+      "url": "https://mode.com",
+      "description": "Analytics platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "806",
+      "title": "DeepL Write",
+      "url": "https://deepl.com/write",
+      "description": "AI writing assistant",
+      "category": "Language"
+    },
+    {
+      "id": "807",
+      "title": "Semrush AI",
+      "url": "https://semrush.com/ai",
+      "description": "Marketing intelligence platform",
+      "category": "Marketing"
+    },
+    {
+      "id": "808",
+      "title": "OneTrust",
+      "url": "https://onetrust.com",
+      "description": "Privacy management platform",
+      "category": "Governance"
+    },
+    {
+      "id": "809",
+      "title": "Agrology",
+      "url": "https://agrology.ag",
+      "description": "Predictive agriculture",
+      "category": "Agriculture"
+    },
+    {
+      "id": "810",
+      "title": "Drishti",
+      "url": "https://drishti.com",
+      "description": "Manufacturing analytics",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "811",
+      "title": "ClearML",
+      "url": "https://clear.ml",
+      "description": "MLOps automation platform",
+      "category": "Data"
+    },
+    {
+      "id": "812",
+      "title": "Eightfold Talent",
+      "url": "https://eightfold.ai",
+      "description": "Talent Intelligence",
+      "category": "HR"
+    },
+    {
+      "id": "813",
+      "title": "NetVirta",
+      "url": "https://netvirta.com",
+      "description": "3D body scanning",
+      "category": "3D"
+    },
+    {
+      "id": "814",
+      "title": "Rescale",
+      "url": "https://rescale.com",
+      "description": "High performance computing",
+      "category": "Hardware"
+    },
+    {
+      "id": "815",
+      "title": "Weights & Biases",
+      "url": "https://wandb.ai",
+      "description": "ML experiment tracking",
+      "category": "Data"
+    },
+    {
+      "id": "816",
+      "title": "AgritecFMS",
+      "url": "https://agritecfms.com",
+      "description": "Farm management system",
+      "category": "Agriculture"
+    },
+    {
+      "id": "817",
+      "title": "Climavision",
+      "url": "https://climavision.com",
+      "description": "Weather intelligence",
+      "category": "Climate"
+    },
+    {
+      "id": "818",
+      "title": "Nethermind",
+      "url": "https://nethermind.io",
+      "description": "Blockchain infrastructure",
+      "category": "Data"
+    },
+    {
+      "id": "819",
+      "title": "Arbol",
+      "url": "https://arbolmarket.com",
+      "description": "Climate risk solutions",
+      "category": "Climate"
+    },
+    {
+      "id": "820",
+      "title": "Benchling",
+      "url": "https://benchling.com",
+      "description": "R&D automation platform",
+      "category": "Automation"
+    },
+    {
+      "id": "821",
+      "title": "Knowde",
+      "url": "https://knowde.com",
+      "description": "Chemical marketplace",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "822",
+      "title": "Arcadia",
+      "url": "https://arcadia.io",
+      "description": "Healthcare data platform",
+      "category": "Data"
+    },
+    {
+      "id": "823",
+      "title": "Dedrone",
+      "url": "https://dedrone.com",
+      "description": "Airspace security",
+      "category": "Security"
+    },
+    {
+      "id": "824",
+      "title": "Verusen",
+      "url": "https://verusen.com",
+      "description": "Supply chain intelligence",
+      "category": "Analytics"
+    },
+    {
+      "id": "825",
+      "title": "Socure",
+      "url": "https://socure.com",
+      "description": "Digital identity verification",
+      "category": "Security"
+    },
+    {
+      "id": "826",
+      "title": "Rev.com",
+      "url": "https://rev.com",
+      "description": "Speech to text platform",
+      "category": "Language"
+    },
+    {
+      "id": "827",
+      "title": "SkyWatch",
+      "url": "https://skywatch.com",
+      "description": "Earth observation platform",
+      "category": "Data"
+    },
+    {
+      "id": "828",
+      "title": "Kebotix",
+      "url": "https://kebotix.com",
+      "description": "Materials discovery platform",
+      "category": "Research"
+    },
+    {
+      "id": "829",
+      "title": "Citrine",
+      "url": "https://citrine.io",
+      "description": "Materials informatics",
+      "category": "Research"
+    },
+    {
+      "id": "830",
+      "title": "Vectra AI",
+      "url": "https://vectra.ai",
+      "description": "Network detection",
+      "category": "Security"
+    },
+    {
+      "id": "831",
+      "title": "Form Energy",
+      "url": "https://formenergy.com",
+      "description": "Energy storage systems",
+      "category": "Climate"
+    },
+    {
+      "id": "832",
+      "title": "Quaise Energy",
+      "url": "https://quaise.energy",
+      "description": "Geothermal energy tech",
+      "category": "Climate"
+    },
+    {
+      "id": "833",
+      "title": "Heirloom",
+      "url": "https://heirloom.net",
+      "description": "Carbon capture technology",
+      "category": "Climate"
+    },
+    {
+      "id": "834",
+      "title": "Living Carbon",
+      "url": "https://livingcarbon.com",
+      "description": "Enhanced carbon capture",
+      "category": "Climate"
+    },
+    {
+      "id": "835",
+      "title": "Saleswhale",
+      "url": "https://saleswhale.com",
+      "description": "Sales engagement AI",
+      "category": "Sales"
+    },
+    {
+      "id": "836",
+      "title": "Outreach",
+      "url": "https://outreach.io",
+      "description": "Sales execution platform",
+      "category": "Sales"
+    },
+    {
+      "id": "837",
+      "title": "Groove",
+      "url": "https://groove.co",
+      "description": "Sales engagement platform",
+      "category": "Sales"
+    },
+    {
+      "id": "838",
+      "title": "Apollo.io",
+      "url": "https://apollo.io",
+      "description": "Sales intelligence platform",
+      "category": "Sales"
+    },
+    {
+      "id": "839",
+      "title": "ZoomInfo",
+      "url": "https://zoominfo.com",
+      "description": "Sales intelligence platform",
+      "category": "Sales"
+    },
+    {
+      "id": "840",
+      "title": "Tribal",
+      "url": "https://tribal.credit",
+      "description": "Business payment platform",
+      "category": "Business"
+    },
+    {
+      "id": "841",
+      "title": "Clarifai",
+      "url": "https://clarifai.com",
+      "description": "Computer vision platform",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "842",
+      "title": "Socure",
+      "url": "https://socure.com",
+      "description": "Digital identity platform",
+      "category": "Security"
+    },
+    {
+      "id": "843",
+      "title": "Deepgram",
+      "url": "https://deepgram.com",
+      "description": "Speech recognition API",
+      "category": "API"
+    },
+    {
+      "id": "844",
+      "title": "Persona",
+      "url": "https://withpersona.com",
+      "description": "Identity verification",
+      "category": "Security"
+    },
+    {
+      "id": "845",
+      "title": "Evervault",
+      "url": "https://evervault.com",
+      "description": "Data encryption platform",
+      "category": "Security"
+    },
+    {
+      "id": "846",
+      "title": "Gretel AI",
+      "url": "https://gretel.ai",
+      "description": "Synthetic data platform",
+      "category": "Data"
+    },
+    {
+      "id": "847",
+      "title": "Dataiku",
+      "url": "https://dataiku.com",
+      "description": "Enterprise AI platform",
+      "category": "Data"
+    },
+    {
+      "id": "848",
+      "title": "Snorkel AI",
+      "url": "https://snorkel.ai",
+      "description": "Data labeling automation",
+      "category": "Data"
+    },
+    {
+      "id": "849",
+      "title": "Yseop",
+      "url": "https://yseop.com",
+      "description": "Natural language generation",
+      "category": "Language"
+    },
+    {
+      "id": "850",
+      "title": "Cohere",
+      "url": "https://cohere.ai",
+      "description": "NLP platform",
+      "category": "Language"
+    },
+    {
+      "id": "851",
+      "title": "AgXeed",
+      "url": "https://agxeed.com",
+      "description": "Autonomous farming",
+      "category": "Agriculture"
+    },
+    {
+      "id": "852",
+      "title": "Samsara",
+      "url": "https://samsara.com",
+      "description": "Industrial IoT platform",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "853",
+      "title": "BrainCo",
+      "url": "https://brainco.tech",
+      "description": "Neural interface technology",
+      "category": "Hardware"
+    },
+    {
+      "id": "854",
+      "title": "SOSV Climate Tech",
+      "url": "https://sosv.com/climate",
+      "description": "Climate tech platform",
+      "category": "Climate"
+    },
+    {
+      "id": "855",
+      "title": "Opseyes",
+      "url": "https://opseyes.ai",
+      "description": "Security operations AI",
+      "category": "Security"
+    },
+    {
+      "id": "856",
+      "title": "Recorded Future",
+      "url": "https://recordedfuture.com",
+      "description": "Intelligence platform",
+      "category": "Intelligence"
+    },
+    {
+      "id": "857",
+      "title": "BehavioSec",
+      "url": "https://behaviosec.com",
+      "description": "Behavioral biometrics",
+      "category": "Security"
+    },
+    {
+      "id": "858",
+      "title": "Orbital Insight",
+      "url": "https://orbitalinsight.com",
+      "description": "Geospatial analytics",
+      "category": "Analytics"
+    },
+    {
+      "id": "859",
+      "title": "SpaceKnow",
+      "url": "https://spaceknow.com",
+      "description": "Satellite imagery analytics",
+      "category": "Analytics"
+    },
+    {
+      "id": "860",
+      "title": "CLEAR",
+      "url": "https://clearme.com",
+      "description": "Identity verification platform",
+      "category": "Security"
+    },
+    {
+      "id": "861",
+      "title": "Dataminr",
+      "url": "https://dataminr.com",
+      "description": "Real-time information discovery",
+      "category": "Analytics"
+    },
+    {
+      "id": "862",
+      "title": "RightHand Robotics",
+      "url": "https://righthandrobotics.com",
+      "description": "Warehouse automation",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "863",
+      "title": "Plus One Robotics",
+      "url": "https://plusonerobotics.com",
+      "description": "Warehouse robotics vision",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "864",
+      "title": "Invenia Labs",
+      "url": "https://invenia.ca",
+      "description": "Grid optimization",
+      "category": "Climate"
+    },
+    {
+      "id": "865",
+      "title": "Sidewalk Infrastructure",
+      "url": "https://sidewalkinfra.com",
+      "description": "Urban infrastructure AI",
+      "category": "Government"
+    },
+    {
+      "id": "866",
+      "title": "Clarifai Gov",
+      "url": "https://clarifai.com/government",
+      "description": "Government AI solutions",
+      "category": "Government"
+    },
+    {
+      "id": "867",
+      "title": "Shield AI Defense",
+      "url": "https://shield.ai",
+      "description": "Defense autonomy systems",
+      "category": "Defense"
+    },
+    {
+      "id": "868",
+      "title": "Rebellion Defense",
+      "url": "https://rebelliondefense.com",
+      "description": "Defense software platform",
+      "category": "Defense"
+    },
+    {
+      "id": "869",
+      "title": "Adarga",
+      "url": "https://adarga.ai",
+      "description": "Defense intelligence platform",
+      "category": "Defense"
+    },
+    {
+      "id": "870",
+      "title": "Community.ai",
+      "url": "https://community.ai",
+      "description": "Community engagement platform",
+      "category": "Community"
+    },
+    {
+      "id": "871",
+      "title": "Saltlending",
+      "url": "https://saltlending.com",
+      "description": "Digital asset platform",
+      "category": "Business"
+    },
+    {
+      "id": "872",
+      "title": "DeepBrain",
+      "url": "https://deepbrainai.io",
+      "description": "AI avatar platform",
+      "category": "Entertainment"
+    },
+    {
+      "id": "873",
+      "title": "Squirro",
+      "url": "https://squirro.com",
+      "description": "Insights engine",
+      "category": "Analytics"
+    },
+    {
+      "id": "874",
+      "title": "Abridge",
+      "url": "https://abridge.com",
+      "description": "Medical conversation AI",
+      "category": "Communication"
+    },
+    {
+      "id": "875",
+      "title": "Remarkable AI",
+      "url": "https://remarkable.ai",
+      "description": "Document processing",
+      "category": "Documents"
     }
 ];
