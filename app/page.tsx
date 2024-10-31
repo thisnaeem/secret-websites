@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { Website, websites } from "./types";
 
@@ -14,7 +14,7 @@ interface HeaderProps {
   categoryCounts: Record<string, number>;
 }
 
-const Header = ({ totalWebsites,  }: HeaderProps) => (
+const Header = ({ totalWebsites }: HeaderProps) => (
   <div className="bg-gray-900 border-b border-gray-800 py-6 mb-8 w-full">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center mb-4">
@@ -45,33 +45,88 @@ const CategoryFilter = ({
   activeCategory,
   onCategoryChange,
   categoryCounts,
-}: CategoryFilterProps) => (
-  <div className="flex flex-wrap gap-2 mb-6">
-    <button
-      onClick={() => onCategoryChange(null)}
-      className={`category-button ${
-        activeCategory === null
-          ? "category-button-active"
-          : "category-button-inactive"
-      }`}
-    >
-      All ({websites.length})
-    </button>
-    {categories.map((category) => (
-      <button
-        key={category}
-        onClick={() => onCategoryChange(category)}
-        className={`category-button ${
-          activeCategory === category
-            ? "category-button-active"
-            : "category-button-inactive"
-        }`}
-      >
-        {category} ({categoryCounts[category]})
-      </button>
-    ))}
-  </div>
-);
+}: CategoryFilterProps) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const initialDisplayCount = 5; // Number of categories to show initially
+
+  const visibleCategories = isExpanded
+    ? categories
+    : categories.slice(0, initialDisplayCount);
+  const hiddenCategoriesCount = categories.length - initialDisplayCount;
+
+  return (
+    <div className="mb-6">
+      <div className="flex flex-wrap gap-2 mb-2">
+        <button
+          onClick={() => onCategoryChange(null)}
+          className={`category-button ${
+            activeCategory === null
+              ? "category-button-active"
+              : "category-button-inactive"
+          }`}
+        >
+          All ({websites.length})
+        </button>
+        {visibleCategories.map((category) => (
+          <button
+            key={category}
+            onClick={() => onCategoryChange(category)}
+            className={`category-button ${
+              activeCategory === category
+                ? "category-button-active"
+                : "category-button-inactive"
+            }`}
+          >
+            {category} ({categoryCounts[category]})
+          </button>
+        ))}
+      </div>
+
+      {categories.length > initialDisplayCount && (
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="text-blue-400 hover:text-blue-300 transition-colors text-sm flex items-center gap-1 mt-2"
+        >
+          {isExpanded ? (
+            <>
+              Show Less
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M5 15l7-7 7 7"
+                />
+              </svg>
+            </>
+          ) : (
+            <>
+              Show {hiddenCategoriesCount} More
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </>
+          )}
+        </button>
+      )}
+    </div>
+  );
+};
 
 const WebsiteCard = ({ website }: { website: Website }) => (
   <div className="website-card">
@@ -99,7 +154,6 @@ const WebsiteDirectory = () => {
 
   const categories = [...new Set(websites.map((site) => site.category))];
 
-  // Calculate category counts
   const categoryCounts = websites.reduce((acc, site) => {
     acc[site.category] = (acc[site.category] || 0) + 1;
     return acc;

@@ -5222,5 +5222,390 @@ export const websites: Website[] = [
       "url": "https://lucidworks.com",
       "description": "Search & discovery platform",
       "category": "Search"
+    },
+    {
+      "id": "746",
+      "title": "Tractable",
+      "url": "https://tractable.ai",
+      "description": "Visual damage assessment",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "747",
+      "title": "Nexthink",
+      "url": "https://nexthink.com",
+      "description": "Digital employee experience",
+      "category": "IT"
+    },
+    {
+      "id": "748",
+      "title": "Chronosphere",
+      "url": "https://chronosphere.io",
+      "description": "Cloud monitoring platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "749",
+      "title": "Observe.ai",
+      "url": "https://observe.ai",
+      "description": "Contact center intelligence",
+      "category": "Customer Service"
+    },
+    {
+      "id": "750",
+      "title": "Uniphore",
+      "url": "https://uniphore.com",
+      "description": "Conversational service automation",
+      "category": "Customer Service"
+    },
+    {
+      "id": "751",
+      "title": "Cresta",
+      "url": "https://cresta.com",
+      "description": "Real-time coaching platform",
+      "category": "Customer Service"
+    },
+    {
+      "id": "752",
+      "title": "Palo Alto Networks",
+      "url": "https://paloaltonetworks.com",
+      "description": "Cybersecurity platform",
+      "category": "Security"
+    },
+    {
+      "id": "753",
+      "title": "LangChain",
+      "url": "https://langchain.com",
+      "description": "Language model framework",
+      "category": "Language"
+    },
+    {
+      "id": "754",
+      "title": "RemNote",
+      "url": "https://remnote.com",
+      "description": "AI note-taking platform",
+      "category": "Personal Development"
+    },
+    {
+      "id": "755",
+      "title": "Vanta",
+      "url": "https://vanta.com",
+      "description": "Security compliance automation",
+      "category": "Security"
+    },
+    {
+      "id": "756",
+      "title": "Contrast Security",
+      "url": "https://contrastsecurity.com",
+      "description": "Application security platform",
+      "category": "Security"
+    },
+    {
+      "id": "757",
+      "title": "Resilience",
+      "url": "https://resilience.com",
+      "description": "Cyber insurance platform",
+      "category": "Security"
+    },
+    {
+      "id": "758",
+      "title": "Ambient.ai",
+      "url": "https://ambient.ai",
+      "description": "Physical security intelligence",
+      "category": "Security"
+    },
+    {
+      "id": "759",
+      "title": "DataGrail",
+      "url": "https://datagrail.io",
+      "description": "Privacy platform",
+      "category": "Security"
+    },
+    {
+      "id": "760",
+      "title": "Noogata",
+      "url": "https://noogata.com",
+      "description": "AI analytics platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "761",
+      "title": "Metaview",
+      "url": "https://metaview.ai",
+      "description": "Interview intelligence platform",
+      "category": "HR"
+    },
+    {
+      "id": "762",
+      "title": "Skai",
+      "url": "https://skai.io",
+      "description": "Marketing intelligence platform",
+      "category": "Marketing"
+    },
+    {
+      "id": "763",
+      "title": "Rev.ai",
+      "url": "https://rev.ai",
+      "description": "Speech recognition API",
+      "category": "Language"
+    },
+    {
+      "id": "764",
+      "title": "OneAI",
+      "url": "https://oneai.com",
+      "description": "Language AI platform",
+      "category": "Language"
+    },
+    {
+      "id": "765",
+      "title": "AgriLogic",
+      "url": "https://agrilogic.com",
+      "description": "Agricultural risk management",
+      "category": "Agriculture"
+    },
+    {
+      "id": "766",
+      "title": "Climate Impact X",
+      "url": "https://climateimpact.com",
+      "description": "Carbon credit platform",
+      "category": "Climate"
+    },
+    {
+      "id": "767",
+      "title": "Sylvera",
+      "url": "https://sylvera.com",
+      "description": "Carbon project ratings",
+      "category": "Climate"
+    },
+    {
+      "id": "768",
+      "title": "Persefoni",
+      "url": "https://persefoni.com",
+      "description": "Climate management platform",
+      "category": "Climate"
+    },
+    {
+      "id": "769",
+      "title": "Watershed",
+      "url": "https://watershed.com",
+      "description": "Enterprise climate platform",
+      "category": "Climate"
+    },
+    {
+      "id": "770",
+      "title": "Clarity AI",
+      "url": "https://clarity.ai",
+      "description": "Sustainability analytics",
+      "category": "Climate"
+    },
+    {
+      "id": "771",
+      "title": "Ribbon",
+      "url": "https://ribbonhome.com",
+      "description": "Real estate technology",
+      "category": "Real Estate"
+    },
+    {
+      "id": "772",
+      "title": "Matterport",
+      "url": "https://matterport.com",
+      "description": "Digital twin platform",
+      "category": "3D"
+    },
+    {
+      "id": "773",
+      "title": "Gathering AI",
+      "url": "https://gathering.ai",
+      "description": "Warehouse automation",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "774",
+      "title": "ModalAI",
+      "url": "https://modalai.com",
+      "description": "Autonomous systems",
+      "category": "Hardware"
+    },
+    {
+      "id": "775",
+      "title": "NewsGuard",
+      "url": "https://newsguardtech.com",
+      "description": "News reliability ratings",
+      "category": "News"
+    },
+    {
+      "id": "776",
+      "title": "TruEra",
+      "url": "https://truera.com",
+      "description": "AI quality management",
+      "category": "Governance"
+    },
+    {
+      "id": "777",
+      "title": "Pictory",
+      "url": "https://pictory.ai",
+      "description": "Video content creation",
+      "category": "Entertainment"
+    },
+    {
+      "id": "778",
+      "title": "RunwayML",
+      "url": "https://runwayml.com",
+      "description": "Creative tools platform",
+      "category": "Entertainment"
+    },
+    {
+      "id": "779",
+      "title": "AgriWebb",
+      "url": "https://agriwebb.com",
+      "description": "Livestock management platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "780",
+      "title": "Proagrica",
+      "url": "https://proagrica.com",
+      "description": "Agricultural intelligence",
+      "category": "Agriculture"
+    },
+    {
+      "id": "781",
+      "title": "PhotoRoom",
+      "url": "https://photoroom.com",
+      "description": "AI photo editing",
+      "category": "Photography"
+    },
+    {
+      "id": "782",
+      "title": "Typeform AI",
+      "url": "https://typeform.com/ai",
+      "description": "Conversational forms",
+      "category": "Communication"
+    },
+    {
+      "id": "783",
+      "title": "Keeper",
+      "url": "https://keeper.ai",
+      "description": "Document management AI",
+      "category": "Documents"
+    },
+    {
+      "id": "784",
+      "title": "DocuSign Insight",
+      "url": "https://docusign.com/insight",
+      "description": "Contract analytics",
+      "category": "Documents"
+    },
+    {
+      "id": "785",
+      "title": "Kofax",
+      "url": "https://kofax.com",
+      "description": "Intelligent automation",
+      "category": "Documents"
+    },
+    {
+      "id": "786",
+      "title": "Moxion",
+      "url": "https://moxion.io",
+      "description": "Digital dailies platform",
+      "category": "Image"
+    },
+    {
+      "id": "787",
+      "title": "Documate",
+      "url": "https://documate.org",
+      "description": "Legal document automation",
+      "category": "Legal"
+    },
+    {
+      "id": "788",
+      "title": "Disco",
+      "url": "https://csdisco.com",
+      "description": "Legal discovery platform",
+      "category": "Legal"
+    },
+    {
+      "id": "789",
+      "title": "Truepic",
+      "url": "https://truepic.com",
+      "description": "Image verification platform",
+      "category": "Security"
+    },
+    {
+      "id": "790",
+      "title": "Pixactly",
+      "url": "https://pixactly.ai",
+      "description": "Visual data analysis",
+      "category": "Data Analysis"
+    },
+    {
+      "id": "791",
+      "title": "Prefect",
+      "url": "https://prefect.io",
+      "description": "Dataflow automation",
+      "category": "Data"
+    },
+    {
+      "id": "792",
+      "title": "Census",
+      "url": "https://getcensus.com",
+      "description": "Operational analytics",
+      "category": "Data"
+    },
+    {
+      "id": "793",
+      "title": "Arize AI",
+      "url": "https://arize.com",
+      "description": "ML observability platform",
+      "category": "Data"
+    },
+    {
+      "id": "794",
+      "title": "Honeycomb",
+      "url": "https://honeycomb.io",
+      "description": "Observability platform",
+      "category": "Data"
+    },
+    {
+      "id": "795",
+      "title": "AgroSmart",
+      "url": "https://agrosmart.com.br",
+      "description": "Digital agriculture platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "796",
+      "title": "Seerist",
+      "url": "https://seerist.com",
+      "description": "Risk intelligence platform",
+      "category": "Intelligence"
+    },
+    {
+      "id": "797",
+      "title": "CircleCI",
+      "url": "https://circleci.com",
+      "description": "Development automation",
+      "category": "Automation"
+    },
+    {
+      "id": "798",
+      "title": "Vena",
+      "url": "https://venasolutions.com",
+      "description": "Business planning platform",
+      "category": "Business"
+    },
+    {
+      "id": "799",
+      "title": "Canvass Analytics",
+      "url": "https://canvass.io",
+      "description": "Industrial AI platform",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "800",
+      "title": "Uptake",
+      "url": "https://uptake.com",
+      "description": "Industrial intelligence",
+      "category": "Manufacturing"
     }
 ];
