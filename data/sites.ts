@@ -7700,6 +7700,182 @@ export const defaultWebsites: Website[] = [
       "url": "https://reask.earth",
       "description": "Climate risk modeling",
       "category": "Climate"
+    },
+    {
+      "id": "1101",
+      "title": "ClimateX",
+      "url": "https://climatex.ai",
+      "description": "Climate change analytics",
+      "category": "Climate"
+    },
+    {
+      "id": "1102",
+      "title": "AgMonitor",
+      "url": "https://agmonitor.com",
+      "description": "Agricultural monitoring",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1103",
+      "title": "BeyondCorp",
+      "url": "https://beyondcorp.com",
+      "description": "Zero trust security",
+      "category": "Security"
+    },
+    {
+      "id": "1104",
+      "title": "ScienceIO",
+      "url": "https://science.io",
+      "description": "Healthcare language AI",
+      "category": "Language"
+    },
+    {
+      "id": "1105",
+      "title": "Aloft",
+      "url": "https://aloft.ai",
+      "description": "Aviation intelligence",
+      "category": "Aviation"
+    },
+    {
+      "id": "1106",
+      "title": "Skyryse",
+      "url": "https://skyryse.com",
+      "description": "Flight automation systems",
+      "category": "Aviation"
+    },
+    {
+      "id": "1107",
+      "title": "Govini",
+      "url": "https://govini.com",
+      "description": "Government analytics",
+      "category": "Government"
+    },
+    {
+      "id": "1108",
+      "title": "Cognni",
+      "url": "https://cognni.ai",
+      "description": "Information intelligence",
+      "category": "Intelligence"
+    },
+    {
+      "id": "1109",
+      "title": "DeepBrain Chain",
+      "url": "https://deepbrainchain.org",
+      "description": "AI computing network",
+      "category": "Hardware"
+    },
+    {
+      "id": "1110",
+      "title": "Percepto",
+      "url": "https://percepto.co",
+      "description": "Autonomous inspection",
+      "category": "Safety"
+    },
+    {
+      "id": "1111",
+      "title": "Governance.ai",
+      "url": "https://governance.ai",
+      "description": "AI governance platform",
+      "category": "Governance"
+    },
+    {
+      "id": "1112",
+      "title": "PhotoRoom Pro",
+      "url": "https://photoroom.com/pro",
+      "description": "Professional photo editing",
+      "category": "Photography"
+    },
+    {
+      "id": "1113",
+      "title": "TensorSpace",
+      "url": "https://tensorspace.org",
+      "description": "3D visualization platform",
+      "category": "3D"
+    },
+    {
+      "id": "1114",
+      "title": "CommunityAI",
+      "url": "https://community.ai",
+      "description": "Community engagement platform",
+      "category": "Community"
+    },
+    {
+      "id": "1115",
+      "title": "SalesGPT",
+      "url": "https://salesgpt.ai",
+      "description": "Sales intelligence platform",
+      "category": "Sales"
+    },
+    {
+      "id": "1116",
+      "title": "Brainspace",
+      "url": "https://brainspace.com",
+      "description": "Data analytics platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "1117",
+      "title": "AgroSmart Pro",
+      "url": "https://agrosmart.com.br/pro",
+      "description": "Agricultural intelligence",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1118",
+      "title": "ClimateScore Global",
+      "url": "https://climatescore.global",
+      "description": "Climate risk analytics",
+      "category": "Climate"
+    },
+    {
+      "id": "1119",
+      "title": "Versive",
+      "url": "https://versive.ai",
+      "description": "Security analytics",
+      "category": "Security"
+    },
+    {
+      "id": "1120",
+      "title": "Arrcus",
+      "url": "https://arrcus.com",
+      "description": "Networking intelligence",
+      "category": "Hardware"
+    },
+    {
+      "id": "1121",
+      "title": "DataGrail Pro",
+      "url": "https://datagrail.io/pro",
+      "description": "Privacy platform",
+      "category": "Security"
+    },
+    {
+      "id": "1122",
+      "title": "Mattermost",
+      "url": "https://mattermost.com",
+      "description": "Collaboration platform",
+      "category": "Collaboration"
+    },
+    {
+      "id": "1123",
+      "title": "Documaster",
+      "url": "https://documaster.com",
+      "description": "Document management AI",
+      "category": "Documents"
+    },
+    {
+      "id": "1124",
+      "title": "LegalSifter",
+      "url": "https://legalsifter.com",
+      "description": "Contract analysis AI",
+      "category": "Legal"
+    },
+    {
+      "id": "1125",
+      "title": "Translated Labs",
+      "url": "https://translated.com/labs",
+      "description": "Translation technology",
+      "category": "Language"
     }
+
 
 ];
