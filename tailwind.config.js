@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-jakarta)'],
+        sans: 'var(--font-jakarta)',
       },
       colors: {
         'gray-750': '#2d374d',
