@@ -6132,5 +6132,985 @@ export const websites: Website[] = [
       "url": "https://remarkable.ai",
       "description": "Document processing",
       "category": "Documents"
+    },
+    {
+      "id": "876",
+      "title": "Pinecone",
+      "url": "https://pinecone.io",
+      "description": "Vector database platform",
+      "category": "Data"
+    },
+    {
+      "id": "877",
+      "title": "RavenPack",
+      "url": "https://ravenpack.com",
+      "description": "Financial analytics AI",
+      "category": "Analytics"
+    },
+    {
+      "id": "878",
+      "title": "Relativity6",
+      "url": "https://relativity6.com",
+      "description": "Business classification AI",
+      "category": "Business"
+    },
+    {
+      "id": "879",
+      "title": "Arago",
+      "url": "https://arago.co",
+      "description": "IT automation platform",
+      "category": "IT"
+    },
+    {
+      "id": "880",
+      "title": "Amelia",
+      "url": "https://amelia.ai",
+      "description": "Conversational AI platform",
+      "category": "Customer Service"
+    },
+    {
+      "id": "881",
+      "title": "Voxel Analytics",
+      "url": "https://voxel.ai",
+      "description": "Workplace safety AI",
+      "category": "Safety"
+    },
+    {
+      "id": "882",
+      "title": "SparkCognition Gov",
+      "url": "https://sparkcognition.com/government",
+      "description": "Government AI solutions",
+      "category": "Government"
+    },
+    {
+      "id": "883",
+      "title": "Manifold",
+      "url": "https://manifold.ai",
+      "description": "Machine learning platform",
+      "category": "Data"
+    },
+    {
+      "id": "884",
+      "title": "Securiti",
+      "url": "https://securiti.ai",
+      "description": "Data governance platform",
+      "category": "Governance"
+    },
+    {
+      "id": "885",
+      "title": "Hive",
+      "url": "https://thehive.ai",
+      "description": "AI content moderation",
+      "category": "Content"
+    },
+    {
+      "id": "886",
+      "title": "Spectral AI",
+      "url": "https://spectral.ai",
+      "description": "Code security platform",
+      "category": "Security"
+    },
+    {
+      "id": "887",
+      "title": "Verdant AI",
+      "url": "https://verdant.ai",
+      "description": "Sustainable agriculture",
+      "category": "Agriculture"
+    },
+    {
+      "id": "888",
+      "title": "Atomwise",
+      "url": "https://atomwise.com",
+      "description": "Drug discovery AI",
+      "category": "Research"
+    },
+    {
+      "id": "889",
+      "title": "Veritone",
+      "url": "https://veritone.com",
+      "description": "Enterprise AI platform",
+      "category": "Enterprise"
+    },
+    {
+      "id": "890",
+      "title": "Agora Lab",
+      "url": "https://agora.io",
+      "description": "Real-time engagement",
+      "category": "Communication"
+    },
+    {
+      "id": "891",
+      "title": "Gradiant",
+      "url": "https://gradiant.org",
+      "description": "Applied AI research",
+      "category": "Research"
+    },
+    {
+      "id": "892",
+      "title": "Hyro",
+      "url": "https://hyro.ai",
+      "description": "Adaptive communications",
+      "category": "Communication"
+    },
+    {
+      "id": "893",
+      "title": "ReciGen",
+      "url": "https://recigen.ai",
+      "description": "Recipe generation AI",
+      "category": "Content"
+    },
+    {
+      "id": "894",
+      "title": "Osmo",
+      "url": "https://osmo.ai",
+      "description": "Manufacturing quality control",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "895",
+      "title": "Pactum",
+      "url": "https://pactum.com",
+      "description": "AI negotiation platform",
+      "category": "Business"
+    },
+    {
+      "id": "896",
+      "title": "Weights & Biases",
+      "url": "https://wandb.ai",
+      "description": "ML experiment tracking",
+      "category": "Development"
+    },
+    {
+      "id": "897",
+      "title": "Roboflow",
+      "url": "https://roboflow.com",
+      "description": "Computer vision platform",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "898",
+      "title": "Cogniac",
+      "url": "https://cogniac.co",
+      "description": "Visual automation platform",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "899",
+      "title": "LogicMonitor",
+      "url": "https://logicmonitor.com",
+      "description": "Infrastructure monitoring",
+      "category": "IT"
+    },
+    {
+      "id": "900",
+      "title": "Lexion",
+      "url": "https://lexion.ai",
+      "description": "Contract management AI",
+      "category": "Legal"
+    },
+    {
+      "id": "901",
+      "title": "Modzy",
+      "url": "https://modzy.com",
+      "description": "Enterprise AI platform",
+      "category": "Enterprise"
+    },
+    {
+      "id": "902",
+      "title": "Accubits",
+      "url": "https://accubits.com",
+      "description": "Blockchain AI solutions",
+      "category": "Enterprise"
+    },
+    {
+      "id": "903",
+      "title": "Eightfold",
+      "url": "https://eightfold.ai",
+      "description": "Talent management AI",
+      "category": "HR"
+    },
+    {
+      "id": "904",
+      "title": "Intellimize",
+      "url": "https://intellimize.com",
+      "description": "Website optimization AI",
+      "category": "Marketing"
+    },
+    {
+      "id": "905",
+      "title": "Abnormal Security",
+      "url": "https://abnormalsecurity.com",
+      "description": "Email security platform",
+      "category": "Security"
+    },
+    {
+      "id": "906",
+      "title": "Armorblox",
+      "url": "https://armorblox.com",
+      "description": "Communications security",
+      "category": "Security"
+    },
+    {
+      "id": "907",
+      "title": "Deepgram Enterprise",
+      "url": "https://deepgram.com/enterprise",
+      "description": "Speech recognition platform",
+      "category": "Enterprise"
+    },
+    {
+      "id": "908",
+      "title": "AgriTech Gateway",
+      "url": "https://agritech-gateway.com",
+      "description": "Agricultural tech platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "909",
+      "title": "Envisible",
+      "url": "https://envisible.co",
+      "description": "Supply chain transparency",
+      "category": "Analytics"
+    },
+    {
+      "id": "910",
+      "title": "Hypergiant",
+      "url": "https://hypergiant.com",
+      "description": "Industrial AI systems",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "911",
+      "title": "FarmSense",
+      "url": "https://farmsense.io",
+      "description": "Smart pest monitoring",
+      "category": "Agriculture"
+    },
+    {
+      "id": "912",
+      "title": "NWO.ai",
+      "url": "https://nwo.ai",
+      "description": "Trend prediction platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "913",
+      "title": "Mobius Labs",
+      "url": "https://mobius-labs.com",
+      "description": "Computer vision solutions",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "914",
+      "title": "Daedalean",
+      "url": "https://daedalean.ai",
+      "description": "Aviation autopilot systems",
+      "category": "Aviation"
+    },
+    {
+      "id": "915",
+      "title": "ZeroEyes",
+      "url": "https://zeroeyes.com",
+      "description": "Weapons detection system",
+      "category": "Security"
+    },
+    {
+      "id": "916",
+      "title": "ClimateAi Pro",
+      "url": "https://climate.ai/pro",
+      "description": "Climate risk platform",
+      "category": "Climate"
+    },
+    {
+      "id": "917",
+      "title": "OpenSpace",
+      "url": "https://openspace.ai",
+      "description": "Construction imagery platform",
+      "category": "Image"
+    },
+    {
+      "id": "918",
+      "title": "Trueface",
+      "url": "https://trueface.ai",
+      "description": "Identity verification system",
+      "category": "Security"
+    },
+    {
+      "id": "919",
+      "title": "Sway AI",
+      "url": "https://sway-ai.com",
+      "description": "No-code AI platform",
+      "category": "Development"
+    },
+    {
+      "id": "920",
+      "title": "Graviti",
+      "url": "https://graviti.com",
+      "description": "Data versioning platform",
+      "category": "Data"
+    },
+    {
+      "id": "921",
+      "title": "Reejig",
+      "url": "https://reejig.com",
+      "description": "Workforce intelligence",
+      "category": "HR"
+    },
+    {
+      "id": "922",
+      "title": "BosonNLP",
+      "url": "https://bosonlp.com",
+      "description": "Natural language platform",
+      "category": "Language"
+    },
+    {
+      "id": "923",
+      "title": "Roadbotics",
+      "url": "https://roadbotics.com",
+      "description": "Road assessment AI",
+      "category": "Government"
+    },
+    {
+      "id": "924",
+      "title": "Urbint",
+      "url": "https://urbint.com",
+      "description": "Infrastructure AI",
+      "category": "Safety"
+    },
+    {
+      "id": "925",
+      "title": "Everlaw",
+      "url": "https://everlaw.com",
+      "description": "Legal discovery platform",
+      "category": "Legal"
+    },
+    {
+      "id": "926",
+      "title": "MarkovML",
+      "url": "https://markovml.com",
+      "description": "AutoML platform",
+      "category": "Data"
+    },
+    {
+      "id": "927",
+      "title": "HyperScience",
+      "url": "https://hyperscience.com",
+      "description": "Document processing automation",
+      "category": "Documents"
+    },
+    {
+      "id": "928",
+      "title": "Instabase",
+      "url": "https://instabase.com",
+      "description": "Automation platform",
+      "category": "Automation"
+    },
+    {
+      "id": "929",
+      "title": "Syndio",
+      "url": "https://synd.io",
+      "description": "Workplace equity platform",
+      "category": "HR"
+    },
+    {
+      "id": "930",
+      "title": "Viz.ai",
+      "url": "https://viz.ai",
+      "description": "Medical imaging AI",
+      "category": "Image"
+    },
+    {
+      "id": "931",
+      "title": "Drishti",
+      "url": "https://drishti.com",
+      "description": "Manufacturing process AI",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "932",
+      "title": "SafeAI",
+      "url": "https://safeai.ai",
+      "description": "Autonomous heavy equipment",
+      "category": "Safety"
+    },
+    {
+      "id": "933",
+      "title": "Weights & Biases",
+      "url": "https://wandb.ai",
+      "description": "ML experiment tracking",
+      "category": "Data"
+    },
+    {
+      "id": "934",
+      "title": "DataRobot MLOps",
+      "url": "https://datarobot.com/mlops",
+      "description": "ML operations platform",
+      "category": "Data"
+    },
+    {
+      "id": "935",
+      "title": "Domino Data Lab",
+      "url": "https://dominodatalab.com",
+      "description": "Enterprise MLOps",
+      "category": "Data"
+    },
+    {
+      "id": "936",
+      "title": "Truera",
+      "url": "https://truera.com",
+      "description": "AI Quality Management",
+      "category": "Data"
+    },
+    {
+      "id": "937",
+      "title": "AgriLogic",
+      "url": "https://agrilogic.com",
+      "description": "Agricultural risk platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "938",
+      "title": "FarmWise",
+      "url": "https://farmwise.io",
+      "description": "Agricultural robotics",
+      "category": "Agriculture"
+    },
+    {
+      "id": "939",
+      "title": "Terramera",
+      "url": "https://terramera.com",
+      "description": "Agricultural technology",
+      "category": "Agriculture"
+    },
+    {
+      "id": "940",
+      "title": "BrainBox AI",
+      "url": "https://brainboxai.com",
+      "description": "Building climate control",
+      "category": "Climate"
+    },
+    {
+      "id": "941",
+      "title": "AiDash",
+      "url": "https://aidash.com",
+      "description": "Satellite analytics",
+      "category": "Analytics"
+    },
+    {
+      "id": "942",
+      "title": "Orbital Sidekick",
+      "url": "https://orbitalsidekick.com",
+      "description": "Hyperspectral monitoring",
+      "category": "Analytics"
+    },
+    {
+      "id": "943",
+      "title": "Deduce",
+      "url": "https://deduce.com",
+      "description": "Identity intelligence",
+      "category": "Security"
+    },
+    {
+      "id": "944",
+      "title": "Dragos",
+      "url": "https://dragos.com",
+      "description": "Industrial cybersecurity",
+      "category": "Security"
+    },
+    {
+      "id": "945",
+      "title": "Claroty",
+      "url": "https://claroty.com",
+      "description": "Cybersecurity platform",
+      "category": "Security"
+    },
+    {
+      "id": "946",
+      "title": "CybelAngel",
+      "url": "https://cybelangel.com",
+      "description": "Digital risk protection",
+      "category": "Security"
+    },
+    {
+      "id": "947",
+      "title": "Vehere",
+      "url": "https://vehere.com",
+      "description": "Cybersecurity intelligence",
+      "category": "Intelligence"
+    },
+    {
+      "id": "948",
+      "title": "Cobalt Speech",
+      "url": "https://cobaltspeech.com",
+      "description": "Speech recognition platform",
+      "category": "Language"
+    },
+    {
+      "id": "949",
+      "title": "Deepset",
+      "url": "https://deepset.ai",
+      "description": "NLP solution platform",
+      "category": "Language"
+    },
+    {
+      "id": "950",
+      "title": "SparkNLP",
+      "url": "https://spark-nlp.org",
+      "description": "Natural language library",
+      "category": "Language"
+    },
+    {
+      "id": "951",
+      "title": "OneClick.ai",
+      "url": "https://oneclick.ai",
+      "description": "Automated AI platform",
+      "category": "Automation"
+    },
+    {
+      "id": "952",
+      "title": "Labelbox",
+      "url": "https://labelbox.com",
+      "description": "Data labeling platform",
+      "category": "Data"
+    },
+    {
+      "id": "953",
+      "title": "Mobius Labs",
+      "url": "https://mobiuslabs.com",
+      "description": "Computer vision SDK",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "954",
+      "title": "Algolux",
+      "url": "https://algolux.com",
+      "description": "Computer vision platform",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "955",
+      "title": "Nexar",
+      "url": "https://getnexar.com",
+      "description": "Vehicle vision platform",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "956",
+      "title": "Aware",
+      "url": "https://aware.com",
+      "description": "Enterprise collaboration governance",
+      "category": "Governance"
+    },
+    {
+      "id": "957",
+      "title": "SkyWatch",
+      "url": "https://skywatch.com",
+      "description": "Satellite imagery platform",
+      "category": "Data"
+    },
+    {
+      "id": "958",
+      "title": "Spire",
+      "url": "https://spire.com",
+      "description": "Space-based data analytics",
+      "category": "Data Analysis"
+    },
+    {
+      "id": "959",
+      "title": "Descartes Labs",
+      "url": "https://descarteslabs.com",
+      "description": "Geospatial intelligence",
+      "category": "Intelligence"
+    },
+    {
+      "id": "960",
+      "title": "Tomorrow.io",
+      "url": "https://tomorrow.io",
+      "description": "Weather intelligence platform",
+      "category": "Climate"
+    },
+    {
+      "id": "961",
+      "title": "Everlaw",
+      "url": "https://everlaw.com",
+      "description": "Legal discovery platform",
+      "category": "Legal"
+    },
+    {
+      "id": "962",
+      "title": "LexCheck",
+      "url": "https://lexcheck.com",
+      "description": "Contract analysis AI",
+      "category": "Legal"
+    },
+    {
+      "id": "963",
+      "title": "Eigen",
+      "url": "https://eigen.co",
+      "description": "Document intelligence platform",
+      "category": "Documents"
+    },
+    {
+      "id": "964",
+      "title": "Flatfile",
+      "url": "https://flatfile.com",
+      "description": "Data onboarding platform",
+      "category": "Data"
+    },
+    {
+      "id": "965",
+      "title": "Dataiku",
+      "url": "https://dataiku.com",
+      "description": "Collaborative data science",
+      "category": "Data Science"
+    },
+    {
+      "id": "966",
+      "title": "Astronomer",
+      "url": "https://astronomer.io",
+      "description": "Data orchestration platform",
+      "category": "Data"
+    },
+    {
+      "id": "967",
+      "title": "BeyondMinds",
+      "url": "https://beyondminds.ai",
+      "description": "Enterprise AI solutions",
+      "category": "Enterprise"
+    },
+    {
+      "id": "968",
+      "title": "Ergatta",
+      "url": "https://ergatta.com",
+      "description": "AI fitness technology",
+      "category": "Personal Development"
+    },
+    {
+      "id": "969",
+      "title": "Darktrace OT",
+      "url": "https://darktrace.com/ot",
+      "description": "Industrial security AI",
+      "category": "Security"
+    },
+    {
+      "id": "970",
+      "title": "DeepCube",
+      "url": "https://deepcube.ai",
+      "description": "Deep learning optimization",
+      "category": "Data"
+    },
+    {
+      "id": "971",
+      "title": "Groq",
+      "url": "https://groq.com",
+      "description": "AI processor technology",
+      "category": "Hardware"
+    },
+    {
+      "id": "972",
+      "title": "Cerebras Systems",
+      "url": "https://cerebras.net",
+      "description": "AI compute hardware",
+      "category": "Hardware"
+    },
+    {
+      "id": "973",
+      "title": "Mythic",
+      "url": "https://mythic-ai.com",
+      "description": "AI processor chips",
+      "category": "Hardware"
+    },
+    {
+      "id": "974",
+      "title": "Syntiant",
+      "url": "https://syntiant.com",
+      "description": "Neural decision processors",
+      "category": "Hardware"
+    },
+    {
+      "id": "975",
+      "title": "Blaize",
+      "url": "https://blaize.com",
+      "description": "AI edge computing",
+      "category": "Hardware"
+    },
+    {
+      "id": "976",
+      "title": "Tenstorrent",
+      "url": "https://tenstorrent.com",
+      "description": "AI hardware architecture",
+      "category": "Hardware"
+    },
+    {
+      "id": "977",
+      "title": "Atmosec",
+      "url": "https://atmosec.com",
+      "description": "SaaS security platform",
+      "category": "Security"
+    },
+    {
+      "id": "978",
+      "title": "Sourcewhale",
+      "url": "https://sourcewhale.com",
+      "description": "Sales automation platform",
+      "category": "Sales"
+    },
+    {
+      "id": "979",
+      "title": "Truewind",
+      "url": "https://truewind.ai",
+      "description": "Business automation",
+      "category": "Business"
+    },
+    {
+      "id": "980",
+      "title": "Pixis",
+      "url": "https://pixis.ai",
+      "description": "Marketing AI platform",
+      "category": "Marketing"
+    },
+    {
+      "id": "981",
+      "title": "Moveworks",
+      "url": "https://moveworks.com",
+      "description": "Employee support AI",
+      "category": "HR"
+    },
+    {
+      "id": "982",
+      "title": "Eightfold Talent",
+      "url": "https://eightfold.ai",
+      "description": "Talent intelligence",
+      "category": "HR"
+    },
+    {
+      "id": "983",
+      "title": "TrustRadius",
+      "url": "https://trustradius.com",
+      "description": "B2B technology reviews",
+      "category": "Resources"
+    },
+    {
+      "id": "984",
+      "title": "Jellyfish",
+      "url": "https://jellyfish.co",
+      "description": "Engineering analytics",
+      "category": "Analytics"
+    },
+    {
+      "id": "985",
+      "title": "Vectice",
+      "url": "https://vectice.com",
+      "description": "Data science platform",
+      "category": "Data"
+    },
+    {
+      "id": "986",
+      "title": "Arize",
+      "url": "https://arize.com",
+      "description": "ML observability platform",
+      "category": "Analytics"
+    },
+    {
+      "id": "987",
+      "title": "Noogata",
+      "url": "https://noogata.com",
+      "description": "No-code AI analytics",
+      "category": "Analytics"
+    },
+    {
+      "id": "988",
+      "title": "Airbyte",
+      "url": "https://airbyte.com",
+      "description": "Data integration platform",
+      "category": "Data"
+    },
+    {
+      "id": "989",
+      "title": "AgFunder",
+      "url": "https://agfunder.com",
+      "description": "Agtech investment platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "990",
+      "title": "Planted",
+      "url": "https://planted.ai",
+      "description": "Agricultural AI platform",
+      "category": "Agriculture"
+    },
+    {
+      "id": "991",
+      "title": "CarbonChain",
+      "url": "https://carbonchain.com",
+      "description": "Carbon footprint tracking",
+      "category": "Climate"
+    },
+    {
+      "id": "992",
+      "title": "ClimateView",
+      "url": "https://climateview.global",
+      "description": "Climate transition platform",
+      "category": "Climate"
+    },
+    {
+      "id": "993",
+      "title": "Arcadia Power",
+      "url": "https://arcadia.com",
+      "description": "Clean energy platform",
+      "category": "Climate"
+    },
+    {
+      "id": "994",
+      "title": "Watershed",
+      "url": "https://watershed.com",
+      "description": "Climate platform",
+      "category": "Climate"
+    },
+    {
+      "id": "995",
+      "title": "Regrow",
+      "url": "https://regrow.ag",
+      "description": "Agricultural sustainability",
+      "category": "Agriculture"
+    },
+    {
+      "id": "996",
+      "title": "Truebot",
+      "url": "https://truebot.com",
+      "description": "Customer service automation",
+      "category": "Customer Service"
+    },
+    {
+      "id": "997",
+      "title": "Cognigy",
+      "url": "https://cognigy.com",
+      "description": "Conversational AI",
+      "category": "Customer Service"
+    },
+    {
+      "id": "998",
+      "title": "Deepsense",
+      "url": "https://deepsense.ai",
+      "description": "AI consulting platform",
+      "category": "Enterprise"
+    },
+    {
+      "id": "999",
+      "title": "Determined AI",
+      "url": "https://determined.ai",
+      "description": "ML training platform",
+      "category": "Data"
+    },
+    {
+      "id": "1000",
+      "title": "Deepset",
+      "url": "https://deepset.ai",
+      "description": "NLP development platform",
+      "category": "Language"
+    },
+    {
+      "id": "1001",
+      "title": "Allganize",
+      "url": "https://allganize.ai",
+      "description": "Document intelligence",
+      "category": "Documents"
+    },
+    {
+      "id": "1002",
+      "title": "Viso.ai",
+      "url": "https://viso.ai",
+      "description": "Computer vision platform",
+      "category": "Computer Vision"
+    },
+    {
+      "id": "1003",
+      "title": "BlueRiver",
+      "url": "https://bluerivertechnology.com",
+      "description": "Agricultural robotics",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1004",
+      "title": "CNH Industrial",
+      "url": "https://cnhindustrial.com",
+      "description": "Agricultural automation",
+      "category": "Agriculture"
+    },
+    {
+      "id": "1005",
+      "title": "Guardian Analytics",
+      "url": "https://guardiananalytics.com",
+      "description": "Fraud detection AI",
+      "category": "Security"
+    },
+    {
+      "id": "1006",
+      "title": "Privacera",
+      "url": "https://privacera.com",
+      "description": "Data governance platform",
+      "category": "Governance"
+    },
+    {
+      "id": "1007",
+      "title": "Immuta",
+      "url": "https://immuta.com",
+      "description": "Data access governance",
+      "category": "Governance"
+    },
+    {
+      "id": "1008",
+      "title": "Collibra",
+      "url": "https://collibra.com",
+      "description": "Data intelligence platform",
+      "category": "Data"
+    },
+    {
+      "id": "1009",
+      "title": "Alation",
+      "url": "https://alation.com",
+      "description": "Data catalog platform",
+      "category": "Data"
+    },
+    {
+      "id": "1010",
+      "title": "Informatica",
+      "url": "https://informatica.com",
+      "description": "Data management platform",
+      "category": "Data"
+    },
+    {
+      "id": "1011",
+      "title": "Precisely",
+      "url": "https://precisely.com",
+      "description": "Data integrity platform",
+      "category": "Data"
+    },
+    {
+      "id": "1012",
+      "title": "Talend",
+      "url": "https://talend.com",
+      "description": "Data integration platform",
+      "category": "Data"
+    },
+    {
+      "id": "1013",
+      "title": "Tamr",
+      "url": "https://tamr.com",
+      "description": "Data mastering platform",
+      "category": "Data"
+    },
+    {
+      "id": "1014",
+      "title": "Quantum Machines",
+      "url": "https://quantum-machines.co",
+      "description": "Quantum computing control",
+      "category": "Hardware"
+    },
+    {
+      "id": "1015",
+      "title": "Rigetti",
+      "url": "https://rigetti.com",
+      "description": "Quantum computing systems",
+      "category": "Hardware"
     }
 ];
